@@ -1,5 +1,10 @@
 import Head from 'next/head'
-import Homepage from './src/Homepage'
+import {BsFillMoonStarsFill} from "react-icons/bs";
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/ai"
+import Image from 'next/image';
+import deved from "../public/dev-ed-wave.png";
+
+
 
 export default function Home() {
   return (
@@ -10,8 +15,37 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="container mx-auto">
-         <h1>Comming soon</h1>
+      <main className="bg-white px-10">
+         <section className="min-h-screen">
+            <nav className="py-6 mb-12 flex justify-between">
+              <h1 className="text-xl font-burtons">Kwame</h1>
+              <ul className="flex  items-center">
+                <li> <BsFillMoonStarsFill className="cursor-pointer" /> </li>
+                <li><a className="bg-cyan-500 text-white px-4 py-2 rounded ml-8" href="#">Resume</a></li>
+              </ul>
+            </nav>
+
+            <div className="text-center p-10">
+              <h2 className="text-5xl py-2 text-teal-500 font-medium">Kwame Ato</h2>
+              <h3 className="text-2xl py-2">Developer and designer</h3>
+
+              <p className="text-md py-5 leading-8 text-gray-800">
+                Freelance providing services for programming needs.
+                Join me down below and let's get crack
+              </p>
+            </div>
+
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500">
+                <AiFillTwitterCircle />
+                <AiFillLinkedin />
+                <AiFillYoutube />
+            </div>
+
+            <div className="relative bg-cyan-400 rounded-full mx-auto w-80 h-80 mt-20 overflow-hidden">
+               <Image src={deved} />
+            </div>
+
+         </section>
       </main>
     </div>
   )
