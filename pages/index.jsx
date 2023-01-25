@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, FaFigma} from "react-icons/ai"
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 import Image from 'next/image';
 import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
@@ -37,9 +37,9 @@ export default function Home() {
             </div>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500 dark:text-white">
-                <AiFillTwitterCircle />
-                <AiFillLinkedin />
-                <AiFillYoutube />
+                <a href="https://twitter.com/kwamea236"> <AiFillTwitterCircle /> </a>
+                <a> <AiFillLinkedin className="cursor-pointer" /> </a>
+                <a href="https://github.com/kwamea236"> <AiFillGithub /> </a>
             </div>
 
             <div className="relative bg-cyan-400 rounded-full mx-auto w-80 h-80 mt-20 overflow-hidden items-center">
@@ -66,8 +66,12 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="lg:flex gap-10 md:flex">
-                <div className="text-center shadow p-10 rounded-2xl dark:bg-white">
+              {/**
+               * Cards designing stage
+               */}
+
+              <div className="lg:flex gap-10">
+                <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
                     <Image src={design} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
                     <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
                     <p className="py-2 leading-8">
