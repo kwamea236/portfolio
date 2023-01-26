@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 import Image from 'next/image';
-import deved from "../public/dev-ed-wave.png";
-import design from "../public/design.png";
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
+import deved from "../public/dev-ed-wave.svg";
+import design from "../public/design.svg";
+import code from "../public/code.svg";
+import consulting from "../public/consulting.svg";
 import { useState } from 'react';
 import NavBar from './src/NavBar';
 
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
 
             <div className="relative bg-cyan-400 rounded-full mx-auto w-80 h-80 mt-20 overflow-hidden items-center">
-               <Image src={deved} className="object-cover" />
+               <Image src={deved} className="mx-10 mt-10" />
             </div>
 
          </section>
@@ -75,10 +75,10 @@ export default function Home() {
                     <Image src={design} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
                     <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
                     <p className="py-2 leading-8">
-                    Creating super elegant for your needs following cove
+                    Creating super elegant for your needs following core
                     programming principles
                     </p>
-                    <h4 className="pt-5 pb-3 text-teal-500">Design tools I used</h4>
+                    <h4 className="pt-5 pb-3 text-teal-500">Design tools I use in my development workflow</h4>
                     <p className="text-gray-800 py-1">Figma</p>
                     <p className="text-gray-800 py-1">Javascript</p>
                     <p className="text-gray-800 py-1">Tailwind</p>
@@ -86,7 +86,7 @@ export default function Home() {
 
                 <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
                     <Image src={code} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
-                    <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+                    <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
                     <p className="py-2 leading-8">
                     Creating super elegant for your needs following cove
                     programming principles
