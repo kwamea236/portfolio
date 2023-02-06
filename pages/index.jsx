@@ -1,16 +1,10 @@
 import Head from 'next/head'
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from "react-icons/ai"
-import Image from 'next/image';
-import deved from "../public/dev-ed-wave.svg";
-import python from "../public/python.png";
-import node from "../public/node.png";
-import javascript from "../public/javascript.png"
-import react from "../public/react.png"
-import next from "../public/next.png"
-import tailwind from "../public/tailwind.png"
 import { useState } from 'react';
 import NavBar from './src/NavBar';
-
+import Mainbody from './src/Mainbody';
+import Myservice from './src/Myservice';
+import Myskills from './src/Myskills';
+import Footer from './src/Footer';
 
 
 export default function Home() {
@@ -25,89 +19,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white px-10 dark:bg-gray-800">
-         <section className="min-h-screen">
-          
-          <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
-
-            <div className="text-center p-10">
-              <h2 className="text-5xl py-2 text-teal-500 font-medium">Hi there <div>I Kwame Ato</div></h2>
-              <h3 className="text-2xl py-2 dark:text-white">Software engineer</h3>
-
-              <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-                Using cutting edge technologies such as <span className="text-cyan-500">nodejs, django, react etc</span> to solve today and tomorrow problems
-              </p>
-            </div>
-
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500 dark:text-white">
-                <a href="https://twitter.com/kwamea236"> <AiFillTwitterCircle /> </a>
-                <a> <AiFillLinkedin className="cursor-pointer" /> </a>
-                <a href="https://github.com/kwamea236"> <AiFillGithub /> </a>
-            </div>
-
-            <div className="relative bg-cyan-500 rounded-full mx-auto w-80 h-80 mt-20 overflow-hidden items-center">
-               <Image src={deved} className="mx-10 mt-10" />
-            </div>
-
-         </section>
-
-         <section>
-            <div className="mt-5 md:text-center">
-              <h3 className="text-3xl py-1 pt-5 dark:text-white">Services I offer</h3>
-                <p className="text-md py-2 leading-8 text-gray-800 md:mx-auto dark:text-white">
-                  The main service I offer is in web developement, I develope website
-                  and web applications to wide range of business that is health and fitness,
-                  beauti shops, coffee shops, online courses .
-                </p>
-                
-              <hr className="w-48 h-0.5 mx-auto my-4 bg-gray-500 border-0 mb-10 dark:bg-white" />    
-            </div>
-         </section>
-
-          {/**
-           * My Skills Page
-           */}
-         <section>
-            <h3 className="text-2xl text-gray-800 text-center dark:text-white">My Skills</h3>
-            <div className="lg:flex gap-10 justify-center">
-                <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
-                  <Image src={python} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
-                  <h3 className="text-lg font-medium">Python</h3>
-                </div>
-
-                <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
-                  <Image src={javascript} width={200} height={200} className="mx-auto lg:mx-auto md:mx-auto" />
-                  <h3 className="text-lg font-medium">JavaScript</h3>
-                </div>
-
-                <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
-                  <Image src={react} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
-                  <h3 className="text-lg font-medium">React</h3>
-                </div>
-              </div>
-
-              <div className="lg:flex gap-10 justify-center">
-                <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
-                  <Image src={node} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
-                  <h3 className="text-lg font-medium">NodeJs</h3>
-                </div>
-
-                <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
-                  <Image src={next} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
-                  <h3 className="text-lg font-medium">NextJS</h3>
-                </div>
-
-                <div className="text-center shadow p-10 rounded-2xl mt-10 dark:bg-white">
-                  <Image src={tailwind} width={100} height={100} className="mx-auto lg:mx-auto md:mx-auto" />
-                  <h3 className="text-lg font-medium">Tailwind</h3>
-                </div>
-              </div>
-         </section>
-
-         <section>
-            <div className="text-end md:text-center">
-              <p className="text-sm px-6 py-6 dark:text-white">copyright &copy; 2023 GenMagic, All right reserved</p>
-            </div>
-         </section>
+        <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Mainbody />
+        <Myservice />
+        <Myskills />
+        <Footer />
       </main>
     </div>
   )

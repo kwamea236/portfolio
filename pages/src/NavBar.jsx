@@ -1,5 +1,4 @@
 import {BsFillMoonStarsFill} from "react-icons/bs";
-import { useState } from "react";
 
 function NavBar({darkMode, setDarkMode}){
     return(
