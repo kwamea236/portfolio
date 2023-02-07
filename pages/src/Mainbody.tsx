@@ -22,7 +22,7 @@ function Mainbody(){
             </div>
 
             <div className="relative bg-cyan-500 rounded-full mx-auto w-80 h-80 mt-20 overflow-hidden items-center">
-               <Image src={deved} className="mx-10 mt-10" />
+               <Image src={deved} alt="myself" className="mx-10 mt-10" />
             </div>
 
          </section>

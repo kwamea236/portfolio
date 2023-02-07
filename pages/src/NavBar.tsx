@@ -1,6 +1,11 @@
 import {BsFillMoonStarsFill} from "react-icons/bs";
 
-function NavBar({darkMode, setDarkMode}){
+type Props={
+    darkMode: boolean,
+    setDarkMode: (dark:boolean)=>void
+}
+
+function NavBar({darkMode, setDarkMode}: Props){
     return(
         <div>
              <nav className="py-6 mb-1 flex justify-between">
