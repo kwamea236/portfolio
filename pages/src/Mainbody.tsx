@@ -7,7 +7,7 @@ function Mainbody(){
         <section className="min-h-screen">
 
             <div className="text-center p-10">
-              <h2 className="text-5xl py-2 text-teal-500 font-medium">Hi there <div>I am Kwame Ato</div></h2>
+              <h2 className="text-3xl py-2 text-teal-500 font-medium">Hi there <div>I am Kwame Ato</div></h2>
               <h3 className="text-2xl py-2 dark:text-white">Software engineer</h3>
 
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
