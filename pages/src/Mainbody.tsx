@@ -11,7 +11,8 @@ function Mainbody(){
               <h3 className="text-2xl py-2 dark:text-white">Software engineer</h3>
 
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-                Using cutting edge technologies such as <span className="text-cyan-500">nodejs, django, react etc</span> to solve today and tomorrow problems
+                Using cutting edge technologies such as <span className="text-cyan-500">nodejs, django, react </span> and other tools
+                to build Full Stack application for client
               </p>
             </div>
 
