@@ -11,7 +11,7 @@ function Mainbody(){
               <h3 className="text-2xl py-2 dark:text-white">Software engineer</h3>
 
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-                Using cutting edge technologies such as <span className="text-cyan-500">nodejs, django, react </span> and other tools
+                Using cutting edge technologies such as <span className="text-teal-500">nodejs, django, react </span> and other tools
                 to build Full Stack application for client
               </p>
             </div>
@@ -22,7 +22,7 @@ function Mainbody(){
                 <a href="https://github.com/kwamea236"> <AiFillGithub /> </a>
             </div>
 
-            <div className="relative bg-cyan-500 rounded-full mx-auto w-80 h-80 mt-20 overflow-hidden items-center">
+            <div className="relative bg-teal-300 rounded-full mx-auto w-80 h-80 mt-20 overflow-hidden items-center">
                <Image src={deved} alt="myself" className="mx-10 mt-10" />
             </div>
 
