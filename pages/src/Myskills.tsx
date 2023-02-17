@@ -16,7 +16,7 @@ function Myskills(){
             {/**
              * Deck one
              */}
-            <div className="lg:flex gap-10 justify-center">
+            <div className="md:flex gap-10 justify-center">
                 <div className="text-center p-10 rounded-2xl mt-10 border hover:shadow-xl dark:bg-white">
                   <Image src={python} width={100} height={100} alt="python image" className="mx-auto lg:mx-auto md:mx-auto" />
                   <h3 className="text-lg font-medium">Python</h3>
@@ -37,7 +37,7 @@ function Myskills(){
               * Deck Two
             */}
 
-              <div className="lg:flex gap-10 justify-center">
+              <div className="md:flex gap-10 justify-center">
                 <div className="text-center p-10 rounded-2xl mt-10 border hover:shadow-xl dark:bg-white">
                   <Image src={node} width={100} height={100} alt="nodejs image" className="mx-auto lg:mx-auto md:mx-auto" />
                   <h3 className="text-lg font-medium">NodeJs</h3>
@@ -58,7 +58,7 @@ function Myskills(){
                * Deck 3
                */}
 
-               <div className="lg:flex gap-10 justify-center">
+               <div className="md:flex gap-10 justify-center">
                 <div className="text-center p-10 rounded-2xl mt-10 border hover:shadow-xl dark:bg-white">
                   <Image src={postgres} width={100} height={100} alt="nodejs image" className="mx-auto lg:mx-auto md:mx-auto" />
                   <h3 className="text-lg font-medium">PosgresQl</h3>
