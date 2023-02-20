@@ -48,3 +48,16 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+.navbar{
+  position: relative;
+  z-index: 999;
+  height: 62px;
+  width: 100%;
+}
+
+.sticky-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
