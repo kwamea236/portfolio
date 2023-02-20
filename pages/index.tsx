@@ -18,12 +18,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon"  href="/akyimagic.png" />
       </Head>
-      <main className="bg-white px-10 dark:bg-gray-800">
+      <main className="bg-white dark:bg-gray-800">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
-        <Mainbody />
-        <Myservice />
-        <Myskills />
-        <Footer />
+        <div className="px-10">
+          <Mainbody />
+          <Myservice />
+          <Myskills />
+          <Footer />
+        </div>
       </main>
     </div>
   )
