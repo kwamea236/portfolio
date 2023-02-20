@@ -1,6 +1,4 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import akyimagic from "../../public/akyimagic.png";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 type Props = {
@@ -25,7 +23,7 @@ function NavBar({ darkMode, setDarkMode }: Props) {
     }
 
     return (
-        <div className={`${stickyClass} navbar bg-white`}>
+        <div className={`${stickyClass} navbar bg-white dark:bg-slate-800`}>
             <nav>
                 {/* medium to large screen nav bar */}
                 <div className="hidden py-6 mb-1 justify-between px-10 md:flex">
