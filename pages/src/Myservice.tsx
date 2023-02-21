@@ -5,12 +5,12 @@ import database from "../../public/database.svg";
 
 function Myservice(){
     return(
-        <section>
+        <section className="pb-5">
             <div className="mt-5 md:text-center">
-              <h3 className="text-3xl py-1 pt-5 font-bold dark:text-white">Services I offer</h3>
+              <h3 className="text-3xl py-1 pt-5 font-bold mx-5 text-teal-500 dark:text-white">Services I offer</h3>
               
-              <div className="md:flex gap-5 justify-center">
-                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg">
+              <div className="justify-center md:flex gap-5">
+                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg mx-5">
 
                   <div>
                     <div className="bg-teal-900 py-6 px-6 w-20 rounded-b-md"> <Image src={frontend} alt="" height={300} /> </div>
@@ -28,7 +28,7 @@ function Myservice(){
                   </p>
                 </div>
 
-                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg">
+                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg mx-5">
 
                   <div>
                     <div className="bg-teal-900 py-6 px-6 w-20 rounded-b-md"> <Image src={backend} alt="" height={300} /> </div>
@@ -46,7 +46,7 @@ function Myservice(){
                   </p>
                 </div>
 
-                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg">
+                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg mx-5">
 
                   <div>
                     <div className="bg-teal-900 py-6 px-6 w-20 rounded-b-md"> <Image src={database} alt="" height={300} /> </div>
@@ -65,7 +65,6 @@ function Myservice(){
                 </div>
               </div>
 
-              <hr className="w-48 h-0.5 mx-auto my-4 bg-gray-500 border-0 mb-10 dark:bg-white" />    
             </div>
          </section>
     )
