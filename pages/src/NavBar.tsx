@@ -4,10 +4,11 @@ import Link from "next/link";
 
 type Props = {
     darkMode: boolean,
-    setDarkMode: (dark: boolean) => void
+    setDarkMode: (dark: boolean) => void,
+    title: string
 }
 
-function NavBar({ darkMode, setDarkMode }: Props) {
+function NavBar({ darkMode, setDarkMode, title }: Props) {
 
     const [toggle, setToggle] = useState(false);
     const [stickyClass, setStickClass] = useState("");
@@ -29,7 +30,7 @@ function NavBar({ darkMode, setDarkMode }: Props) {
                 {/* medium to large screen nav bar */}
                 <div className="hidden py-6 mb-1 justify-between px-10 md:flex">
                     <Link href={`/`}>
-                        <h1 className="text-xl font-bold text-teal-500 font-dancing italic cursor-pointer">BlerchPalmer</h1>
+                        <h1 className="text-2xl font-bold text-teal-500 font-dancing italic cursor-pointer">{title}</h1>
                     </Link>
                     <ul className="flex  items-center">
                         <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer ml-1 text-teal-500 dark:text-white" /> </li>
@@ -41,7 +42,7 @@ function NavBar({ darkMode, setDarkMode }: Props) {
                 {/* moile view */}
                 <div className="py-6 mb-1 justify-between px-10 border-b-2 border-teal-500 shadow flex md:hidden">
                     <Link href={`/`}>
-                        <h1 className="text-xl font-bold text-teal-500 font-dancing italic cursor-pointer">BlerchPalmer</h1>
+                        <h1 className="text-xl font-bold text-teal-500 font-dancing italic cursor-pointer">{title}</h1>
                     </Link>
                     <div className="flex  items-center">
                         <button className={`block hamburger ${toggle ? "open flex" : ""} focus:outline-none`} onClick={() => setToggle(!toggle)}>
