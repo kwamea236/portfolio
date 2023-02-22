@@ -1,7 +1,6 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Mainbody from "./Mainbody";
 
 type Props = {
     darkMode: boolean,
