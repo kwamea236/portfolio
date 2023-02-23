@@ -6,65 +6,47 @@ import database from "../../public/database.svg";
 function Myservice(){
     return(
         <section className="pb-5">
-            <div className="mt-5 md:text-center">
-              <h3 className="text-3xl py-1 pt-5 font-bold mx-5 text-teal-500 dark:text-white">Services I offer</h3>
+            <div className="md:text-center">
+              <h3 className="text-2xl py-1 pt-5 font-bold mx-5 text-teal-500 dark:text-white">WHAT WE CAN DO FOR YOU</h3>
+
+              <p className="font-bold text-left text-gray-700 px-4 py-4 mx-auto dark:text-white">
+                Whatever Software your business requires, we are able to 
+                design and develop well tailored solution specifically for your needs.
+              </p>
               
-              <div className="justify-center md:flex gap-5">
-                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg mx-5">
+              <div className="justify-center md:flex md:flex-row md:gap-3">
 
-                  <div>
-                    <div className="bg-teal-900 py-6 px-6 w-20 rounded-b-md"> <Image src={frontend} alt="" height={300} /> </div>
-                  </div>
-                  <h1 className="font-bold text-2xl text-white pt-10">Frontend Development</h1>
-                  <p className="text-gray-800 leading-7">
-                  As a frontend developer, I structure content using
-                  HTML, style it with Csss and add Javascript when case
-                  calls for more complex interactivity
-                  </p>
-                  <p className="text-gray-800 py-4 leading-7">
-                  When the occasion calls for it, i also use frontend
-                  framework like ReactJS, NextJs and I enjoy doing so because of the
-                  develoment speed
+                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg md:basis-1/3">
+                  
+                  <h1 className="font-bold text-2xl text-white pt-5 text-left">Frontend Development</h1>
+                  <p className="text-gray-800 leading-7 text-left">
+                  When it comes to FrontEnd development we use tools such ReactJs, NextJs, Tailwindcss, and other technologies
+                  that best fit a proposed project.
                   </p>
                 </div>
 
-                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg mx-5">
+                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg md:basis-1/3">
 
-                  <div>
-                    <div className="bg-teal-900 py-6 px-6 w-20 rounded-b-md"> <Image src={backend} alt="" height={300} /> </div>
-                  </div>
-                  <h1 className="font-bold text-2xl text-white pt-10">Backend Development</h1>
-                  <p className="text-gray-800 leading-7">
-                  As a frontend developer, I structure content using
-                  HTML, style it with Csss and add Javascript when case
-                  calls for more complex interactivity
+                  <h1 className="font-bold text-2xl text-white pt-5 text-left">Backend Development</h1>
+                  <p className="text-gray-800 leading-7 text-left">
+                  When a project requires that Backend magic touch we use 
+                  tools such as NodeJS, ExpressJS and Django a python framework 
+                  to add the specialized features, especially API.
                   </p>
-                  <p className="text-gray-800 py-4 leading-7">
-                  When the occasion calls for it, i also use frontend
-                  framework like ReactJS, NextJs and I enjoy doing so because of the
-                  develoment speed
-                  </p>
+                  
                 </div>
 
-                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg mx-5">
+                <div className="bg-teal-300 rounded-lg px-6 my-4 shadow-lg md:basis-1/3">
 
-                  <div>
-                    <div className="bg-teal-900 py-6 px-6 w-20 rounded-b-md"> <Image src={database} alt="" height={300} /> </div>
-                  </div>
-                  <h1 className="font-bold text-2xl text-white pt-10">Database Development</h1>
-                  <p className="text-gray-800 leading-7">
-                  As a frontend developer, I structure content using
-                  HTML, style it with Csss and add Javascript when case
-                  calls for more complex interactivity
-                  </p>
-                  <p className="text-gray-800 py-4 leading-7">
-                  When the occasion calls for it, i also use frontend
-                  framework like ReactJS, NextJs and I enjoy doing so because of the
-                  develoment speed
+                  <h1 className="font-bold text-2xl text-white pt-5 text-left">Database Development</h1>
+                  <p className="text-gray-800 leading-7 text-left">
+                    Database development is an important aspect of every application, this is this were
+                    the projects data is kept. We use Postgresql and Mysql for most of our
+                    projects this is because they use Structured Query Language which is 
+                    a domain-specific language used in managing data relational databases.
                   </p>
                 </div>
               </div>
-
             </div>
          </section>
     )
