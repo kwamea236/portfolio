@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <main className="bg-slate-50 dark:bg-gray-800">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} title={title} />
-        <div className="px-10">
+        <div className="">
           <Mainbody />
           <Myservice />
           <Myskills />
