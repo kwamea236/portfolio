@@ -6,6 +6,16 @@ import database from "../../public/database.svg";
 function Myservice(){
     return(
         <section>
+            <div>
+              <h1 className="mt-10 text-4xl font-bold mx-5 text-teal-500">Who are we</h1>
+              <p className="px-4 leading-8 py-4 text-left text-gray-700">
+                We are a software development team helping Small and Medium Enterprises (SMEs)
+                transform their businesses by incorporating digital technological
+                tools in their daily workflow. Since 2021 we have been in close patnership
+                with schools, hospitals, churches and other forms of institution to help them with
+                technological tools for their specific needs.
+              </p>
+            </div>
             <div className="md:text-center">
               <h3 className="text-2xl py-1 pt-5 font-bold mx-5 text-teal-500 dark:text-white">WHAT WE CAN DO FOR YOU</h3>
 

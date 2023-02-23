@@ -7,10 +7,10 @@ function Mainbody(){
         <section>
 
             <div className="text-center p-10">
-              <h2 className="text-3xl py-2 text-teal-500 font-medium font-dancing">BLERCHPALMER</h2>
-              <h3 className="text-2xl py-2 dark:text-white">UPGRADE YOUR BUSINESS</h3>
+              <h2 className="text-8xl py-2 text-teal-500 font-medium font-dancing">IKIGAI</h2>
+              <h3 className="text-4xl py-2 font-bold dark:text-white">UPGRADE YOUR BUSINESS</h3>
 
-              <p className="text-md py-5 leading-8 text-gray-800 font-medium dark:text-white">
+              <p className="text-xl py-5 leading-8 text-gray-800 font-medium dark:text-white">
                 With Custom Built Website Designs and Web Applications, Optimised for SEO
                 and Built with Modularity Intent for Better Product Experience.
               </p>
@@ -23,16 +23,6 @@ function Mainbody(){
             <div className="text-center my-2">
               <button className="bg-white px-14 py-3 text-teal-500 border border-teal-500 font-bold cursor-pointer hover:bg-teal-300">More Information</button>
             </div>
-
-            {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500 dark:text-white">
-                <a href="https://twitter.com/kwamea236"> <AiFillTwitterCircle /> </a>
-                <a> <AiFillLinkedin className="cursor-pointer" /> </a>
-                <a href="https://github.com/kwamea236"> <AiFillGithub /> </a>
-            </div> */}
-
-            {/* <div className="relative bg-teal-300 rounded-full mx-auto w-80 h-80 mt-2 overflow-hidden items-center">
-               <Image src={deved} alt="myself" className="mx-10 mt-10" />
-            </div> */}
          </section>
     )
 }
