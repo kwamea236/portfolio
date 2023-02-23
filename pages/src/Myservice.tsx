@@ -5,7 +5,7 @@ import database from "../../public/database.svg";
 
 function Myservice(){
     return(
-        <section className="pb-5">
+        <section>
             <div className="md:text-center">
               <h3 className="text-2xl py-1 pt-5 font-bold mx-5 text-teal-500 dark:text-white">WHAT WE CAN DO FOR YOU</h3>
 

@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
       </Head>
-      <main className="bg-white dark:bg-gray-800">
+      <main className="bg-slate-50 dark:bg-gray-800">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} title={title} />
         <div className="px-10">
           <Mainbody />
