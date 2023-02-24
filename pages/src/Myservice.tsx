@@ -1,8 +1,3 @@
-import Image from "next/image";
-import backend from "../../public/backend.svg";
-import frontend from "../../public/frontend.svg";
-import database from "../../public/database.svg";
-
 function Myservice(){
     return(
         <section className="bg-white p-4 mt-5">
