@@ -25,7 +25,7 @@ function NavBar({ darkMode, setDarkMode, title }: Props) {
     }
 
     return (
-        <div className={`${stickyClass} navbar bg-white dark:bg-slate-800`}>
+        <div className={`${stickyClass} navbar bg-white shadow dark:bg-slate-800`}>
             <nav>
                 {/* medium to large screen nav bar */}
                 <div className="hidden py-6 mb-1 justify-between px-10 md:flex">
@@ -40,7 +40,7 @@ function NavBar({ darkMode, setDarkMode, title }: Props) {
 
 
                 {/* moile view */}
-                <div className="py-6 mb-1 justify-between px-10 border-b-2 border-teal-500 shadow flex md:hidden">
+                <div className="py-6 justify-between px-10 flex md:hidden">
                     <Link href={`/`}>
                         <h1 className="text-xl font-bold text-teal-500 font-dancing italic cursor-pointer">{title}</h1>
                     </Link>
