@@ -8,8 +8,8 @@ function Myservice(){
         <section className="bg-white p-4 mt-5">
           <div className="px-10">
             <div>
-              <h1 className="mt-10 text-4xl font-bold mx-5 text-teal-500">Who are we</h1>
-              <p className="px-4 leading-8 py-4 text-center text-gray-700">
+              <h1 className="mt-10 text-4xl font-bold mx-5 text-center items-center text-teal-500">Who are we</h1>
+              <p className="px-2 leading-8 py-4 text-center text-gray-700">
                 We are a software development team helping Small and Medium Enterprises (SMEs)
                 transform their businesses by incorporating digital technological
                 tools in their daily workflow. Since 2021 we have been in close patnership
