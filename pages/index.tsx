@@ -10,7 +10,7 @@ import Footer from './src/Footer';
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const title: string = "IKIGAI";
+  const title: string = "BlerchPalmer";
 
   return (
     <div className={darkMode ? "dark": ""}>
@@ -22,9 +22,9 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
       </Head>
-      <main className="bg-slate-200 dark:bg-gray-800">
+      <main className="bg-white dark:bg-gray-800">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} title={title} />
-        <div className="">
+        <div>
           <Mainbody />
           <Myservice />
           <Myskills />
