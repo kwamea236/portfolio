@@ -3,8 +3,8 @@ import { useState } from 'react';
 import NavBar from './src/NavBar';
 import Mainbody from './src/Mainbody';
 import Myservice from './src/Myservice';
-import Myskills from './src/Myskills';
 import Footer from './src/Footer';
+import Contact from './src/Contact';
 
 
 export default function Home() {
@@ -22,12 +22,12 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
       </Head>
-      <main className="bg-white dark:bg-gray-800">
+      <main className="bg-black dark:bg-gray-800">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} title={title} />
         <div>
           <Mainbody />
           <Myservice />
-          <Myskills />
+          <Contact />
           <Footer title={title} />
         </div>
       </main>
