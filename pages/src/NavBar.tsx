@@ -30,7 +30,7 @@ function NavBar({ darkMode, setDarkMode, title }: Props) {
                 {/* medium to large screen nav bar */}
                 <div className="hidden py-6 mb-1 justify-between px-10 md:flex">
                     <Link href={`/`}>
-                        <h1 className="text-2xl font-bold text-white font-dancing italic cursor-pointer">{title}</h1>
+                        <h1 className="text-2xl font-bold text-white font-greatVibes italic cursor-pointer">{title}</h1>
                     </Link>
                     <ul className="flex  items-center">
                         <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer ml-1 text-white" /> </li>
@@ -42,7 +42,7 @@ function NavBar({ darkMode, setDarkMode, title }: Props) {
                 {/* moile view */}
                 <div className="py-6 justify-between px-10 flex shadow-lg bg-black md:hidden">
                     <Link href={`/`}>
-                        <h1 className="text-xl font-bold text-white font-dancing italic cursor-pointer">{title}</h1>
+                        <h1 className="text-2xl font-bold text-white font-greatVibes italic cursor-pointer">{title}</h1>
                     </Link>
                     <div className="flex  items-center">
                         <button className={`block hamburger ${toggle ? "open flex" : ""} focus:outline-none`} onClick={() => setToggle(!toggle)}>

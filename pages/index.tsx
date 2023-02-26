@@ -20,7 +20,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon"  href="/akyimagic.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet" />
+
       </Head>
       <main className="bg-black dark:bg-gray-800">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} title={title} />

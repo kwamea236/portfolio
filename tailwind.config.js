@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       fontFamily:{
         burtons: "burtons",
-        dancing: ['"Dancing Script"', 'cursive']
+        dancing: ['"Dancing Script"', 'cursive'],
+        poppins: ['"Poppins"','sans-serif'],
+        greatVibes: ['"Great Vibes"','cursive'],
+        abrilFatface: ['"Abril Fatface"','cursive']
       },
       animation:{
         "slow": "bounce 5s linear infinite"
