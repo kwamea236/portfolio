@@ -10,12 +10,9 @@ module.exports = {
         burtons: "burtons",
         dancing: ['"Dancing Script"', 'cursive']
       },
-      colors:{
-        myRed: "#DF0E62",
-        myYellow: "#FAC70B",
-        myGreen: "#127681",
-        myDark: "#21174A"
-      }
+      animation:{
+        "slow": "bounce 5s linear infinite"
+      },
     },
 
     screens:{

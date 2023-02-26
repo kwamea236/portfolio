@@ -34,7 +34,7 @@ function NavBar({ darkMode, setDarkMode, title }: Props) {
                     </Link>
                     <ul className="flex  items-center">
                         <li> <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer ml-1 text-white" /> </li>
-                        <li><a className="bg-teal-500 text-white ml-1/2 px-4 py-2 rounded ml-8 font-bold hover:bg-teal-300" href="#">Proposal Template</a></li>
+                        <li><a className="bg-white text-black ml-1/2 px-4 py-2 rounded ml-8 font-bold" href="#">Proposal Template</a></li>
                     </ul>
                 </div>
 

@@ -13,7 +13,7 @@ function Myservice(){
             <div className="md:text-center">
               <h3 className="text-2xl py-1 pt-5 font-bold mx-5 text-white text-center dark:text-white">WHAT WE CAN DO FOR YOU</h3>
 
-              <p className="text-center text-white px-4 py-4 mx-auto dark:text-white">
+              <p className="text-center text-white px-4 py-4 mx-auto md:contianer md:mx-auto md:px-20 dark:text-white">
                 Whatever Software your business requires, we are able to 
                 design and develop well tailored solution specifically for your needs.
               </p>
