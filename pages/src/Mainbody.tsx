@@ -1,6 +1,3 @@
-import Image from "next/image";
-import ImgReact from "../../public/react.png";
-import Postgress from "../../public/postgres.png";
 
 function Mainbody(){
     return(
