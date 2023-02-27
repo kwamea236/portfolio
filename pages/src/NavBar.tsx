@@ -55,7 +55,7 @@ function NavBar({ darkMode, setDarkMode, title }: Props) {
 
                 <div className="md:hidden">
                     <div className={`absolute flex-col items-center self-end py-8 mt-2 space-y-6 font-bold bg-white ${toggle ? "flex" : "hidden"} sm:w-auto sm:self-center left-6 right-6 drop-shadow-md dark:bg-teal-500`}>
-                        <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer ml-1 text-black dark:text-white" />
+                        <a href="#">Blog Post</a>
                         <a className="bg-black text-white ml-1/2 px-4 py-2 rounded font-bold" href="#">Proposal Template</a>
                     </div>
                 </div>

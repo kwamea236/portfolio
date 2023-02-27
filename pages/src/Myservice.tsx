@@ -1,3 +1,5 @@
+import Image from "next/image";
+import data from "../../public/data.svg";
 
 function Myservice(){
     return(
@@ -9,6 +11,14 @@ function Myservice(){
                 We are a software development team helping Small and Medium Enterprises (SMEs)
                 transform their businesses by incorporating digital technological
                 tools in their daily workflow.
+              </p>
+              <div className="container mx-auto">
+                <Image src={data} alt="data service svg" width={300} className="mx-auto" />
+              </div>
+
+              <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
+                In a simple explaination we convert your business data into
+                into an application.
               </p>
             </div>
             
