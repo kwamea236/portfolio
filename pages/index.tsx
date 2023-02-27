@@ -4,7 +4,7 @@ import NavBar from './src/NavBar';
 import Mainbody from './src/Mainbody';
 import Myservice from './src/Myservice';
 import Footer from './src/Footer';
-import Contact from './src/Contact';
+import Contact from './contact/index';
 
 
 export default function Home() {

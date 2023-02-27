@@ -1,4 +1,4 @@
-export default function Contact(){
+export default function index(){
     return(
         <div className="px-5 bg-white py-5 md:mx-20 lg:mx-20">
             <h1 className="text-5xl text-center text-black">Contact Us</h1>

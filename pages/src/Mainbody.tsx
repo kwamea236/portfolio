@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 function Mainbody(){
     return(
@@ -12,7 +13,10 @@ function Mainbody(){
             </div>
 
             <div className="text-center">
-              <button className="px-20 py-3 bg-white text-black font-bold cursor-pointer">Contact Us</button>
+              <Link href="/contact">
+                <button className="px-20 py-3 bg-white text-black font-bold cursor-pointer">Contact Us</button>
+              </Link>
+              
             </div>
          </section>
     )
