@@ -5,24 +5,29 @@ function Myservice(){
     return(
         <section className="bg-black p-4 mt-5">
           <div className="px-10">
-            <div>
-              <h1 className="mt-10 text-5xl font-bold mx-5 text-center items-center font-dancing text-white">Who are we</h1>
-              <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
+            <div className="md:flex">
+              <div>
+                <h1 className="mt-10 text-5xl font-bold mx-5 text-center items-center font-dancing text-white">Who are we</h1>
+                <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
                 We are a software development team helping Small and Medium Enterprises (SMEs)
                 transform their businesses by incorporating digital technological
                 tools in their daily workflow.
-              </p>
-              <div className="container mx-auto">
-                <Image src={data} alt="data service svg" width={300} className="mx-auto" />
-              </div>
+                </p>
 
-              <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
+                <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
                 In a simple explaination we convert your business data into
                 into an application.
-              </p>
+                </p>
+                <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
+                Forget the boring excel sheet and paper works, let make you paperless.
+                </p>
+              </div>
+              <div className="container mx-auto md:py-14 mt-10">
+                <Image src={data} alt="data service svg" width={300} className="mx-auto animate-slow md:w-auto sm:w-auto" />
+              </div>
             </div>
             
-            <div className="md:text-center">
+            <div className="md:text-center md:-mt-11">
               <h3 className="text-2xl py-1 pt-5 font-bold mx-5 text-white text-center font-dancing dark:text-white">WHAT WE CAN DO FOR YOU</h3>
 
               <p className="text-center text-white px-4 py-4 mx-auto font-poppins md:contianer md:mx-auto md:px-20 dark:text-white">
