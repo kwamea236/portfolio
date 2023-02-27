@@ -1,5 +1,3 @@
-import Image from "next/image";
-import data from "../../public/data.gif"
 
 function Myservice(){
     return(
@@ -13,9 +11,7 @@ function Myservice(){
                 tools in their daily workflow.
               </p>
             </div>
-            <div className="container mx-auto">
-              <Image src={data} width={300} alt="data" className="mx-auto" />
-            </div>
+            
             <div className="md:text-center">
               <h3 className="text-2xl py-1 pt-5 font-bold mx-5 text-white text-center font-dancing dark:text-white">WHAT WE CAN DO FOR YOU</h3>
 
