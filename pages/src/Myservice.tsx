@@ -5,25 +5,19 @@ function Myservice(){
     return(
         <section className="bg-black p-4 mt-5">
           <div className="px-10">
-            <div className="md:flex">
+            <div className="">
               <div>
                 <h1 className="mt-10 text-5xl font-bold mx-5 text-center items-center font-dancing text-white">Who are we</h1>
                 <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
-                We are a software development team helping Small and Medium Enterprises (SMEs)
-                transform their businesses by incorporating digital technological
+                We are a software development team helping Small and <span className="md:block">Medium Enterprises (SMEs)
+                transform their businesses by</span> incorporating digital technological
                 tools in their daily workflow.
                 </p>
 
-                <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
-                In a simple explaination we convert your business data into
-                into an application.
+                <p className="font-bold px-2 text-2xl py-4 text-center text-white md:mb-4">
+                  Evolve your business with confidence 
+                  <span className="md:block">with our developer team</span>
                 </p>
-                <p className="font-bold px-2 font-poppins leading-8 py-4 text-center text-white">
-                Forget the boring excel sheet and paper works, let make you paperless.
-                </p>
-              </div>
-              <div className="container mx-auto md:py-14 mt-10">
-                <Image src={data} alt="data service svg" width={300} className="mx-auto animate-slow md:w-auto sm:w-auto" />
               </div>
             </div>
             

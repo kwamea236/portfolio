@@ -23,7 +23,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet" />
 
       </Head>
-      <main className="bg-black dark:bg-gray-800">
+      <main className="bg-white">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} title={title} />
         <div>
           <Mainbody />
