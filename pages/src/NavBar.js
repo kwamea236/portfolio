@@ -2,13 +2,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-type Props = {
-    darkMode: boolean,
-    setDarkMode: (dark: boolean) => void,
-    title: string
-}
-
-function NavBar({ darkMode, setDarkMode, title }: Props) {
+function NavBar({ darkMode, setDarkMode, title }) {
 
     const [toggle, setToggle] = useState(false);
     const [stickyClass, setStickClass] = useState("");

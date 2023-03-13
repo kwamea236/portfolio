@@ -5,12 +5,13 @@ import Mainbody from './src/Mainbody';
 import Myservice from './src/Myservice';
 import Footer from './src/Footer';
 import Contact from './contact/index';
+import Page from './Page';
 
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const title: string = "Blerch";
+  const title = "Blerch";
 
   return (
     <div className={darkMode ? "dark": ""}>
@@ -31,6 +32,8 @@ export default function Home() {
           <Contact />
           <Footer title={title} />
         </div>
+        {/* @ts-expect-error Async Server Component */}
+        <Page />
       </main>
     </div>
   )
