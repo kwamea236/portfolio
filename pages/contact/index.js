@@ -1,4 +1,4 @@
-import NavBar from "../src/NavBar";
+import NavBar from "../src/NavBar.js";
 
 
 export default function index(){

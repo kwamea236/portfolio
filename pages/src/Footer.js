@@ -1,8 +1,5 @@
-type Props = {
-    title: string
-}
 
-function Footer({title}:Props){
+function Footer({title}){
     return(
         <section>
             <div className="text-end md:text-center">

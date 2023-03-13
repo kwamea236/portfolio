@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import { useState } from 'react';
-import NavBar from './src/NavBar';
-import Mainbody from './src/Mainbody';
-import Myservice from './src/Myservice';
-import Footer from './src/Footer';
-import Contact from './contact/index';
-import Page from './Page';
+import NavBar from './src/NavBar.js';
+import Mainbody from './src/Mainbody.js';
+import Myservice from './src/Myservice.js';
+import Footer from './src/Footer.js';
+import Contact from './contact/index.js';
+
 
 
 export default function Home() {
@@ -32,8 +32,6 @@ export default function Home() {
           <Contact />
           <Footer title={title} />
         </div>
-        {/* @ts-expect-error Async Server Component */}
-        <Page />
       </main>
     </div>
   )
